@@ -1,0 +1,291 @@
+.m-bingkai-home{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.m-logout img{
+	width: 45px !important;
+}
+
+.m-bgcolor-home{
+	
+}
+
+body{
+	background-color: #e1eaf3 !important;
+}
+
+.m-tanggal-limit-text{
+	font-size: 23px;
+}
+
+.m-logo-bca{
+	margin-top: -17px;
+}
+
+.m-input{
+    background-color: #fff !important;
+    border-radius: 0px !important;
+    border: 1px !important;
+}
+
+@media only screen and (max-width: 1680px) {
+  .m-tanggal-limit-text {
+      font-size: 17px;
+  }
+}
+
+.m-form-limit{
+	background-color: #fff !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+
+/* The container */
+.m-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.m-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.m-checkmark {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  transform: scale(2);
+  background-color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.m-container:hover input ~ .m-checkmark {
+  background-color: #ccc;
+  top: 9px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.m-container input:checked ~ .m-checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.m-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.m-container input:checked ~ .m-checkmark:after {
+  display: block;
+  top: 3px;
+  left:6px;
+}
+
+/* Style the checkmark/indicator */
+.m-container .m-checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
+/* The container */
+.m-r-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.m-r-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.m-r-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.m-r-container:hover input ~ .m-r-checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.m-r-container input:checked ~ .m-r-checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.m-r-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.m-r-container input:checked ~ .m-r-checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.m-r-container .m-r-checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+table{
+  background-color: #b1d9fd !important;
+}
+
+thead{
+    background-color: #B9B9B9 !important;
+    color: #fff !important;
+}
+
+th{
+  font-size: 13px !important;
+  padding: 10px !important;
+}
+
+.debet{
+  background-color: #FF8080 !important;
+  font-weight: bold !important;
+}
+
+td{
+  font-size: 11px !important;
+  font-weight: bold !important;
+  padding: 10px !important;
+}
+
+.table-overflow{
+    height: 270px;
+    overflow: scroll;
+    background-color: #B1D9FD;
+}
+
+
+.fixed_header{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 287px;
+}
+
+.fixed_header thead tr {
+   display: block;
+}
+
+.fixed_header thead {
+  background: black;
+  color:#fff;
+}
+
+.fixed_header th, .fixed_header td {
+  padding: 0px;
+  text-align: left;
+  width: 211px;
+}
+
+
+  @media only screen and (max-width: 1680px) {
+    .fixed_header th, .fixed_header td {
+        width: 183px !important;
+    }
+  }
+
+  @media only screen and (max-width: 1600px) {
+    .fixed_header th, .fixed_header td {
+        width: 175px  !important;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .fixed_header th, .fixed_header td {
+        width: 155px  !important;
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .fixed_header th, .fixed_header td {
+        width: 150px  !important;
+    }
+  }
+
+  @media only screen and (max-width: 1366px) {
+    .fixed_header th, .fixed_header td {
+        width: 149px  !important;
+    }
+  }
+  @media only screen and (max-width: 1280px) {
+    .fixed_header th {
+        width: 270px !important;
+    }
+    .fixed_header td {
+        width: 135px  !important;
+    }
+  }
+
+  @media only screen and (max-width: 1115px) {
+    .fixed_header th {
+        width: 270px !important;
+    }
+    .fixed_header td {
+        width: 135px  !important;
+    }
+  }
+
+
